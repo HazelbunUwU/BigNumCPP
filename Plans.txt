@@ -1,0 +1,20 @@
+Some of the major plans for the project as a whole:
+
+-----------------------------------------
+High level overviews:
+
+Ints[0:10^19]:
+  Arbitrary Length Arrays of parent for arbitrary precision integers:
+    BigNum (Fully fledged IEEE 745-based floating point BigNum) capable of addition, subtraction, multiplication and division (Proof of concept done in python with my HPF library)
+
+-----------------------------------------
+Lower level overview:
+
+First implementation will probably be using ints ranging from 0 -> 10^19 to make string conversions and overflow detection easier.
+The integers ranging from 0 to 10^19 should built-in carry bool for easier overflow and carry capability.
+
+-----------------------------------------
+Open questions for implementation details:
+
+Should ALA (Arbitrary Length Array's of ints) be signed or unsigned, and should it be random access for each bit/int?
+Thinking about it it probably shouldn't just to make the implementation within the main BigNum format easier to handle and understand.
