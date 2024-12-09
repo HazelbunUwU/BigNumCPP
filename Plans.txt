@@ -5,7 +5,7 @@ High level overviews:
 
 Ints[0:10^19]:
   Arbitrary Length Arrays of parent for arbitrary precision integers:
-    BigNum (Fully fledged IEEE 745-based floating point BigNum) capable of addition, subtraction, multiplication and division (Proof of concept done in python with my HPF library)
+    BigNum (Fully fledged IEEE 754-based floating point BigNum) capable of addition, subtraction, multiplication and division (Proof of concept done in python with my HPF library)
 
 -----------------------------------------
 Lower level overview:
