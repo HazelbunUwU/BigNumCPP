@@ -7,5 +7,3 @@ This is gonna be a revamp of my cpp-hpf project, but more planned through and ha
 This is the Work In Progress branch, meaning everything is not finalised, only things that's been thorougly and properly tested will go into the main branch.
 
 Plans and discussions is in the plan.txt file where everything that need to be properly planned will be discussed through if not already put in Issues.
-
-This is just a test to test GitHub
